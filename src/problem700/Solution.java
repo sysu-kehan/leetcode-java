@@ -1,5 +1,6 @@
 package problem700;
 
+import bean.TreeNode;
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
