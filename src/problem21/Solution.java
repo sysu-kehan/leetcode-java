@@ -1,5 +1,7 @@
 package problem21;
 
+import bean.ListNode;
+
 /**
  * Definition for singly-linked list.
  * public class ListNode {
