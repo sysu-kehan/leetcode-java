@@ -1,8 +1,11 @@
-package Interview32III;
+package interview32II;
 
 import bean.TreeNode;
 
-import java.util.*;
+import java.util.ArrayDeque;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Queue;
 
 /**
  * Definition for a binary tree node.
@@ -37,9 +40,6 @@ class Solution {
           }
           List<Integer> tempList = new ArrayList<>();
           tempList.addAll(list);
-          if (result.size() % 2 != 0) {
-            Collections.reverse(tempList);
-          }
           result.add(tempList);
           list.clear();
         }

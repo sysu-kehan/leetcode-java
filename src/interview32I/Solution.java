@@ -1,4 +1,4 @@
-package Interview32I;
+package interview32I;
 
 import bean.TreeNode;
 

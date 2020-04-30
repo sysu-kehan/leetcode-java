@@ -1,8 +1,8 @@
-package Interview32II;
+package interview32III;
 
 import bean.TreeNode;
 
-import java.util.*;
+import java.util.List;
 
 public class Test {
   public static void main(String[] args) {
