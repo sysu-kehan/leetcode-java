@@ -11,6 +11,12 @@ public class TreeNode {
     val = x;
   }
 
+  public TreeNode(int val, TreeNode left, TreeNode right) {
+    this.val = val;
+    this.left = left;
+    this.right = right;
+  }
+
   public static Integer[] transArray(TreeNode root) {
     if (root == null) {
       return new Integer[]{};

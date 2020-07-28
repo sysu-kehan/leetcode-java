@@ -1,6 +1,6 @@
 package problem1483;
 
-public class Solution {
+class Solution {
   public static void main(String[] args) {
     TreeAncestor obj = new TreeAncestor(7, new int[]{-1, 0, 0, 1, 1, 2, 2});
     System.out.println(obj.getKthAncestor(3, 1));
